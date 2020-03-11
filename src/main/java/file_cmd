@@ -1,0 +1,4 @@
+javac ./org/bitcoin/*.java -cp ./guava-28.0-jre.jar
+export LD_LIBRARY_PATH=/home/eason/secp256k1-1e6f1f5ad5e7f1e3ef79313ec02023902bf8175c/.libs
+java  -cp ./guava-28.0-jre.jar: org.bitcoin.NativeSecp256k1Test
+

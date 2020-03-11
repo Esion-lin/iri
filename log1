@@ -1,0 +1,466 @@
+Logging - property 'logging-level' set to: [INFO]
+03/08 16:13:34.364 [main] INFO  IRI$IRILauncher:192 - Configuration is created using iota.ini and command line args
+03/08 16:13:34.367 [main] INFO  IRI$IRILauncher:193 - parsed the following cmd args: []
+03/08 16:13:34.368 [main] INFO  IRI$IRILauncher:122 - Welcome to IRI Testnet 1.8.4
+03/08 16:13:34.930 [main] INFO  RocksDBPersistenceProvider:130 - Initializing Database on localsnapshots-db
+03/08 16:13:35.082 [main] WARN  RocksDBPersistenceProvider:639 - Defined a db log path in config and commandline; Using the command line setting.
+03/08 16:13:35.122 [main] INFO  RocksDBPersistenceProvider:133 - RocksDB persistence provider initialized.
+03/08 16:13:35.123 [main] INFO  SnapshotProviderImpl:208 - no local snapshot persisted in the database
+03/08 16:13:35.129 [main] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #0 to #0
+03/08 16:13:35.129 [main] INFO  RocksDBPersistenceProvider:130 - Initializing Database on testnetdb
+03/08 16:13:35.267 [main] INFO  RocksDBPersistenceProvider:133 - RocksDB persistence provider initialized.
+03/08 16:13:35.272 [Neighbor Router] INFO  NeighborRouterImpl:144 - starting neighbor router
+03/08 16:13:35.274 [main] INFO  TipsRequesterImpl:388 - Starting [Tips Requester] (starts in 0ms / runs every 5000ms) ...
+03/08 16:13:35.276 [main] INFO  TipsRequesterImpl:403 - [Tips Requester] Started (execution #1) ...
+03/08 16:13:35.276 [main] INFO  LatestMilestoneTrackerImpl:388 - Starting [Latest Milestone Tracker] (starts in 0ms / runs every 1000ms) ...
+03/08 16:13:35.277 [main] INFO  LatestMilestoneTrackerImpl:403 - [Latest Milestone Tracker] Started (execution #1) ...
+03/08 16:13:35.277 [Neighbor Router] INFO  NeighborRouterImpl:155 - bound server TCP socket to /0.0.0.0:15601
+03/08 16:13:35.277 [main] INFO  LatestSolidMilestoneTrackerImpl:388 - Starting [Latest Solid Milestone Tracker] (starts in 0ms / runs every 5000ms) ...
+03/08 16:13:35.277 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 109
+03/08 16:13:35.278 [main] INFO  LatestSolidMilestoneTrackerImpl:403 - [Latest Solid Milestone Tracker] Started (execution #1) ...
+03/08 16:13:35.278 [main] INFO  SeenMilestonesRetrieverImpl:388 - Starting [Seen Milestones Retriever] (starts in 0ms / runs every 1000ms) ...
+03/08 16:13:35.279 [main] INFO  SeenMilestonesRetrieverImpl:403 - [Seen Milestones Retriever] Started (execution #1) ...
+03/08 16:13:35.279 [main] INFO  MilestoneSolidifier:388 - Starting [Milestone Solidifier] (starts in 0ms / runs every 500ms) ...
+03/08 16:13:35.280 [Neighbor Router] INFO  NeighborRouterImpl:614 - establishing connections to 2 wanted neighbors [tcp://127.0.0.1:15600, tcp://127.0.0.1:15602]
+03/08 16:13:35.280 [Seen Milestones Retriever] INFO  SeenMilestonesRetrieverImpl:392 - Requesting seen milestones ... [DONE]
+03/08 16:13:35.280 [Seen Milestones Retriever] INFO  SeenMilestonesRetrieverImpl:433 - Stopping [Seen Milestones Retriever] ...
+03/08 16:13:35.281 [main] INFO  SeenMilestonesRetrieverImpl:454 - [Seen Milestones Retriever] Stopped (after #1 executions) ...
+03/08 16:13:35.281 [main] INFO  MilestoneSolidifier:403 - [Milestone Solidifier] Started (execution #1) ...
+03/08 16:13:35.284 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #0 to #21
+03/08 16:13:35.284 [Latest Solid Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #0 to #21
+03/08 16:13:35.286 [main] INFO  ThreadUtils:71 - Starting Thread: Local Snapshots Monitor ...
+03/08 16:13:35.286 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:392 - Processing milestone candidates (26 remaining) ...
+03/08 16:13:35.290 [Local Snapshots Monitor] INFO  ThreadUtils:74 - Local Snapshots Monitor [STARTED]
+03/08 16:13:35.291 [Neighbor Router] INFO  NeighborRouterImpl:326 - couldn't establish connection to neighbor 127.0.0.1:15602, will attempt to reconnect later. reason: Connection refused
+03/08 16:13:35.292 [Neighbor Router] INFO  NeighborRouterImpl:317 - established connection to neighbor 127.0.0.1:15600, now performing handshake...
+03/08 16:13:35.294 [Neighbor Router] INFO  NeighborRouterImpl:585 - neighbor connection to 127.0.0.1:15600 is ready for messages [latency 10 ms, protocol version 1]
+03/08 16:13:35.317 [Neighbor Router] INFO  NeighborRouterImpl:276 - new connection from 127.0.0.1, performing handshake...
+03/08 16:13:35.331 [Neighbor Router] INFO  NeighborRouterImpl:585 - neighbor connection to 127.0.0.1:15602 is ready for messages [latency 5 ms, protocol version 1]
+03/08 16:13:35.350 [main] INFO  xnio:104 - XNIO version 3.3.8.Final
+03/08 16:13:35.360 [main] INFO  nio:55 - XNIO NIO Implementation Version 3.3.8.Final
+number of node:0
+leng of sig:71
+number of node:2
+leng of sig:70
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:13:35.393 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #21 to #22
+03/08 16:13:35.401 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:392 - Processing milestone candidates ... [DONE]
+03/08 16:13:35.649 [main] INFO  i18n:549 - RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.iota.iri.service.restserver.resteasy.RestEasy
+03/08 16:13:35.651 [main] INFO  IRI$IRILauncher:139 - IOTA Node initialised correctly.
+03/08 16:13:40.292 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #21 to #22
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:71
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:13:42.439 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #22 to #23
+03/08 16:13:45.279 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:13:45.296 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #22 to #23
+03/08 16:13:55.280 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:14:05.281 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:14:15.282 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:14:25.283 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:14:35.284 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 112
+03/08 16:14:42.837 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 1.0% (processed 5 / max possible 256), cycles 4, avg. cycle time 16892.0ms
+number of node:0
+leng of sig:71
+number of node:2
+leng of sig:71
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:14:43.505 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #23 to #24
+03/08 16:14:45.285 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:14:45.302 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #23 to #24
+03/08 16:14:55.286 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:15:05.287 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:15:15.289 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:15:25.290 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:15:35.291 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 115
+03/08 16:15:44.098 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 3.0% (processed 5 / max possible 128), cycles 2, avg. cycle time 30630.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:15:44.566 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #24 to #25
+03/08 16:15:45.307 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #24 to #25
+03/08 16:15:50.292 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:00.293 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:10.294 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:20.297 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:35.298 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:45.299 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 118
+03/08 16:16:45.307 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61209.0ms
+number of node:0
+leng of sig:71
+number of node:2
+leng of sig:71
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:16:45.628 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #25 to #26
+03/08 16:16:50.312 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #25 to #26
+03/08 16:16:55.300 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 121
+03/08 16:17:10.301 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 121
+03/08 16:17:20.302 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 121
+03/08 16:17:35.303 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 121
+03/08 16:17:45.304 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 121
+03/08 16:17:46.543 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61236.0ms
+number of node:0
+leng of sig:70
+number of node:2
+leng of sig:71
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:17:46.676 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #26 to #27
+03/08 16:17:50.318 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #26 to #27
+03/08 16:18:00.305 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 124
+03/08 16:18:15.306 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 124
+03/08 16:18:25.307 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 124
+03/08 16:18:40.308 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 124
+03/08 16:18:47.749 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61205.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:70
+VALID MILESTONE
+03/08 16:18:48.728 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #27 to #28
+03/08 16:18:50.309 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:18:50.321 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #27 to #28
+03/08 16:19:00.310 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:19:15.310 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:19:25.312 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:19:35.313 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:19:45.314 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 127
+03/08 16:19:48.973 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61223.0ms
+number of node:0
+leng of sig:70
+number of node:2
+leng of sig:71
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:19:49.784 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #28 to #29
+03/08 16:19:50.324 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #28 to #29
+03/08 16:20:00.315 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 130
+03/08 16:20:15.316 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 130
+03/08 16:20:30.317 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 130
+03/08 16:20:40.318 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 130
+03/08 16:20:50.209 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61235.0ms
+03/08 16:20:50.319 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+number of node:0
+leng of sig:70
+number of node:2
+leng of sig:70
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:20:50.842 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #29 to #30
+03/08 16:20:55.328 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #29 to #30
+03/08 16:21:05.319 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+03/08 16:21:15.320 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+03/08 16:21:25.321 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+03/08 16:21:35.322 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+03/08 16:21:45.323 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 133
+03/08 16:21:51.397 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61187.0ms
+number of node:0
+leng of sig:70
+number of node:2
+leng of sig:70
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:21:51.894 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #30 to #31
+03/08 16:21:55.331 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #30 to #31
+03/08 16:22:00.324 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 136
+03/08 16:22:10.325 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 136
+03/08 16:22:20.326 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 136
+03/08 16:22:30.327 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 136
+03/08 16:22:45.328 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 136
+03/08 16:22:52.582 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61184.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:2
+leng of sig:70
+VALID MILESTONE
+03/08 16:22:52.950 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #31 to #32
+03/08 16:22:55.333 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #31 to #32
+03/08 16:23:00.329 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 139
+03/08 16:23:10.330 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 139
+03/08 16:23:25.331 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 139
+03/08 16:23:35.331 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 139
+03/08 16:23:45.332 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 139
+03/08 16:23:53.801 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61218.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:71
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:23:53.998 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #32 to #33
+03/08 16:23:55.333 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:23:55.336 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #32 to #33
+03/08 16:24:05.334 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:24:15.335 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:24:25.336 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:24:35.337 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:24:45.338 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 142
+03/08 16:24:54.993 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61191.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:71
+number of node:2
+leng of sig:69
+VALID MILESTONE
+03/08 16:24:55.052 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #33 to #34
+03/08 16:24:55.339 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 145
+03/08 16:25:00.339 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #33 to #34
+03/08 16:25:10.340 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 145
+03/08 16:25:25.341 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 145
+03/08 16:25:40.342 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 145
+03/08 16:25:50.342 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 145
+03/08 16:25:56.197 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61203.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:70
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:25:57.109 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #34 to #35
+03/08 16:26:00.342 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #34 to #35
+03/08 16:26:00.343 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 148
+03/08 16:26:10.344 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 148
+03/08 16:26:20.345 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 148
+03/08 16:26:30.346 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 148
+03/08 16:26:45.347 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 148
+03/08 16:26:57.378 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61180.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:70
+VALID MILESTONE
+03/08 16:26:58.166 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #35 to #36
+03/08 16:27:00.345 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #35 to #36
+03/08 16:27:00.348 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 151
+03/08 16:27:15.349 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 151
+03/08 16:27:30.349 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 151
+03/08 16:27:40.350 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 151
+03/08 16:27:50.351 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 151
+03/08 16:27:58.559 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 3.0% (processed 2 / max possible 64), cycles 1, avg. cycle time 61180.0ms
+03/08 16:28:00.352 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 153
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:28:01.219 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #36 to #37
+03/08 16:28:05.348 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #36 to #37
+03/08 16:28:10.353 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 154
+03/08 16:28:25.354 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 154
+03/08 16:28:35.355 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 154
+03/08 16:28:45.358 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 154
+03/08 16:28:59.762 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 3.0% (processed 4 / max possible 128), cycles 2, avg. cycle time 30601.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:29:00.286 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #37 to #38
+03/08 16:29:00.359 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:29:05.351 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #37 to #38
+03/08 16:29:15.360 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:29:25.361 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:29:40.362 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:29:50.362 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:30:00.363 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 157
+03/08 16:30:00.960 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61197.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:30:01.339 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #38 to #39
+03/08 16:30:05.355 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #38 to #39
+03/08 16:30:10.364 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 160
+03/08 16:30:20.365 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 160
+03/08 16:30:30.366 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 160
+03/08 16:30:40.367 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 160
+03/08 16:30:50.368 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 160
+03/08 16:31:02.158 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61197.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:71
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:31:02.390 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #39 to #40
+03/08 16:31:05.358 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #39 to #40
+03/08 16:31:05.369 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:31:20.370 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:31:30.370 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:31:40.371 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:31:50.372 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:32:00.373 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 163
+03/08 16:32:03.332 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61173.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:32:03.446 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #40 to #41
+03/08 16:32:05.360 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #40 to #41
+03/08 16:32:15.373 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 166
+03/08 16:32:25.374 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 166
+03/08 16:32:35.375 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 166
+03/08 16:32:45.376 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 166
+03/08 16:33:00.377 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 166
+03/08 16:33:04.505 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61173.0ms
+number of node:0
+leng of sig:71
+number of node:2
+leng of sig:71
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:33:05.498 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #41 to #42
+03/08 16:33:10.364 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #41 to #42
+03/08 16:33:10.377 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:33:20.378 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:33:30.379 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:33:40.380 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:33:50.381 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:34:00.382 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 169
+03/08 16:34:05.670 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61164.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:34:06.550 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #42 to #43
+03/08 16:34:10.367 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #42 to #43
+03/08 16:34:15.383 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 172
+03/08 16:34:30.384 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 172
+03/08 16:34:40.385 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 172
+03/08 16:34:50.386 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 172
+03/08 16:35:00.387 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 172
+03/08 16:35:06.856 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61185.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:70
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:35:07.607 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #43 to #44
+03/08 16:35:10.371 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #43 to #44
+03/08 16:35:10.388 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:35:20.389 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:35:30.390 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:35:45.391 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:35:55.391 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:36:05.392 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 175
+03/08 16:36:08.023 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61166.0ms
+number of node:0
+leng of sig:70
+number of node:2
+leng of sig:70
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:36:08.661 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #44 to #45
+03/08 16:36:10.373 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #44 to #45
+03/08 16:36:15.393 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:36:25.394 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:36:35.395 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:36:45.396 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:36:55.397 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:37:05.398 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 178
+03/08 16:37:09.206 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61182.0ms
+number of node:0
+leng of sig:70
+number of node:1
+leng of sig:71
+number of node:3
+leng of sig:71
+VALID MILESTONE
+03/08 16:37:09.716 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #45 to #46
+03/08 16:37:10.375 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #45 to #46
+03/08 16:37:15.399 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 181
+03/08 16:37:25.400 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 181
+03/08 16:37:40.401 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 181
+03/08 16:37:55.402 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 181
+03/08 16:38:05.402 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 181
+03/08 16:38:10.388 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61181.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:70
+VALID MILESTONE
+03/08 16:38:10.769 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #46 to #47
+03/08 16:38:15.378 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #46 to #47
+03/08 16:38:15.403 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 184
+03/08 16:38:25.404 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 184
+03/08 16:38:35.405 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 184
+03/08 16:38:50.406 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 184
+03/08 16:39:05.407 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 184
+03/08 16:39:11.572 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61184.0ms
+number of node:0
+leng of sig:71
+number of node:2
+leng of sig:70
+number of node:3
+leng of sig:70
+VALID MILESTONE
+03/08 16:39:11.821 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #47 to #48
+03/08 16:39:15.381 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #47 to #48
+03/08 16:39:20.408 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 187
+03/08 16:39:30.409 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 187
+03/08 16:39:40.410 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 187
+03/08 16:39:50.411 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 187
+03/08 16:40:05.411 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 187
+03/08 16:40:12.752 [pool-10-thread-1] INFO  BatchedBCTCurl:103 - batching saturation ratio 4.0% (processed 3 / max possible 64), cycles 1, avg. cycle time 61179.0ms
+number of node:0
+leng of sig:71
+number of node:1
+leng of sig:70
+number of node:2
+leng of sig:71
+VALID MILESTONE
+03/08 16:40:12.878 [Latest Milestone Tracker] INFO  LatestMilestoneTrackerImpl:149 - Latest milestone has changed from #48 to #49
+03/08 16:40:15.385 [Latest Solid Milestone Tracker] INFO  LatestSolidMilestoneTrackerImpl:392 - Latest SOLID milestone index changed from #48 to #49
+03/08 16:40:15.412 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
+03/08 16:40:25.413 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
+03/08 16:40:40.414 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
+03/08 16:40:55.414 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
+03/08 16:41:05.415 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
+03/08 16:41:15.416 [Tips Requester] INFO  TipsRequesterImpl:86 - toProcess = 0 , toBroadcast = 0 , toRequest = 0 , toReply = 0 / totalTransactions = 190
