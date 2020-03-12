@@ -208,8 +208,8 @@ public class MilestoneServiceImpl implements MilestoneService {
                                 siblingsTx.trits(), 0, milestoneIndex, config.getNumberOfKeysInMilestone());
                         boolean skipValidation = config.isTestnet() && config.isDontValidateTestnetMilestoneSig();
                         if (skipValidation || config.getCoordinator().equals(HashFactory.ADDRESS.create(merkleRoot))) {
-                            if(checkThresholeSignature(bundleTransactions.get(1).getSignature())){
-
+                            if(!checkThresholeSignature(bundleTransactions.get(1).getSignature())){
+                                return INVALID;
                             }
                             MilestoneViewModel newMilestoneViewModel = new MilestoneViewModel(milestoneIndex,
                                     transactionViewModel.getHash());
